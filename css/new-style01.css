@@ -228,12 +228,9 @@ p {
 
 /* CONTENT-PG03-CONTATO */
 .avatarx {
-    /*background-color: transparent;
-    display: block;*/
     width: 300px;
     height: 300px;
-    /*overflow: hidden;
-    border-radius: 50%;*/
+
 }
 
 .avatarx img {
