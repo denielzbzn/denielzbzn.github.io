@@ -228,116 +228,18 @@ p {
 
 /* CONTENT-PG03-CONTATO */
 .avatarx {
-    background-color: transparent;
-    display: block;
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
-    border-radius: 50%;
+    /*background-color: transparent;
+    display: block;*/
+    width: 300px;
+    height: 300px;
+    /*overflow: hidden;
+    border-radius: 50%;*/
 }
 
 .avatarx img {
     display: block;
     width: 100%;
 }
-
-.contato {
-    width: 100%;
-}
-
-.campo01 {
-	display: flex;
-	flex-direction: column;
-    justify-content: center;
-	align-items: center;
-    border-bottom: 1px solid rgba(36, 36, 36, 0.5);
-    /*margin-left: 0px;
-    width: 75%;*/
-}
-
-.campo02 {
-    display: flex;
-	flex-direction: column;
-    justify-content: center;
-	align-items: center;
-    
-}
-
-#nome {
-	padding: 12px;
-    font-weight: 700;
-    font-size: 16px;
-    border: 1px solid rgba(36, 36, 36, 0.5);
-    border-radius: 40px;
-    font-family: 'Quicksand', sans-serif;
-}
-
-#email {
-	padding: 12px;
-    font-weight: 700;
-    font-size: 16px;
-    border: 1px solid rgba(36, 36, 36, 0.5);
-    border-radius: 40px;
-    font-family: 'Quicksand', sans-serif;
-}
-
-#mensagem {
-	padding: 12px;
-    font-weight: 700;
-    font-size: 16px;
-    border: 1px solid rgba(36, 36, 36, 0.5);
-    border-radius: 40px;
-    font-family: 'Quicksand', sans-serif;
-}
-
-form div {
-	width: 100vw;
-	padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-}
-
-form {
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-[type="text"], [type="email"], textarea, label {
-	display: block;
-	width: 50%;
-	font-size: 15px;
-	padding-top: .3vh;
-	padding-bottom: .3vh;
-    margin: 0 auto;
-}
-
-input {
-    margin: 0 auto;
-}
-
-label {
-	font-size: 20px;
-	margin: 0 auto;	
-}
-
-textarea {
-    margin: 0 auto;
-}
-
-.send {
-    width: 100%;
-}
-
-.submit {
-	width: 120px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-	border-radius: 50px;
-	border: 3px solid rgba(36, 36, 36, 0.5);
-    margin: 0 auto;
-}
-
 
 /* FOOTER */
 footer {
@@ -431,11 +333,8 @@ footer p {
         scale: 65%;
     }
     .avatarx {
-        width: 150px;
-        height: 150px;      
-    }
-    form div {
-        width: 70vw;
+        width: 200px;
+        height: 200px;      
     }
 }
 
@@ -531,8 +430,5 @@ footer p {
     .avatarx {
         width: 120px;
         height: 120px;      
-    }
-    form div {
-        width: 100vw;
     }
 }
